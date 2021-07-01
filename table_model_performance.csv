@@ -1,0 +1,11 @@
+metric,scen,rf,gbm,gbm2,svm
+Specificity,chr1_log,0.999,0.998,0.998,1
+Precision,chr1_log,0,0,0.222,NA
+Recall,chr1_log,0,0,0.009,0
+F1,chr1_log,NA,NA,0.018,NA
+Matthews Correlation,chr1_log,-0.006,-0.01,0.035,NA
+Specificity,rand_log,0.999,0.997,1,1
+Precision,rand_log,0.907,0.594,0.6,NA
+Recall,rand_log,0.274,0.077,0.012,0
+F1,rand_log,0.421,0.136,0.024,NA
+Matthews Correlation,rand_log,0.487,0.201,0.08,NA

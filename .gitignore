@@ -1,0 +1,11 @@
+results
+results_alldata
+error*
+output*
+ATACseq
+CHiPseq
+Reference
+RNAseq
+TargetFinder
+*.bed
+*.pdf
