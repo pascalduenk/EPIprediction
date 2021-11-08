@@ -33,6 +33,13 @@ pred %>%
     count() %>%
     write.table(., "correct_wrong_train.txt", row.names=F, quote=F)
 
+
+pred %>%
+    group_by(prom.intrain) %>%
+    count() %>%
+    write.table(., "overlap_promoters.txt", row.names=F, quote=F)
+
+    
 # check correct true predictions. Promoter in train all true?
 pos.prom <- pred %>%
     filter(prom.intrain == TRUE & (predicted == label) & predicted == 1) %>%
